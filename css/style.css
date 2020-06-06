@@ -1,0 +1,406 @@
+/* Base */
+* {
+    box-sizing: border-box;
+}   
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Start: header */
+.header-part {
+    padding: 30px;
+}
+.flix-logo {
+    width: 200px;
+}
+.top-header {
+    width: 100%;
+    margin: 0 auto;
+}
+.button {
+    background-color: #F28C00;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 5px;
+}
+.login-button, .register-button {
+    float:right;
+    font-weight: 600;
+    font-size: 15px;
+}
+.login-button {
+    background-color: #575756;
+    padding: 8px 32px;
+}
+.register-button {
+    padding: 8px 16px ;
+}
+.button:hover {
+    background-color: #3C90CE;
+}
+.fa-sign-in-alt, .fa-user-plus {
+    font-size: 20px;
+    padding-right: 5px;
+}
+ .conference-title {
+    color: #3C90CE;
+    font-size: 71px;
+    font-weight: 900;
+}
+.conference-year {
+    color: #00497E;
+    padding-left: 15px;
+}
+/* End: Header */
+
+/* Start: Navigation bar */
+.navbar {
+    background-color: #797978;
+    padding: 0px;
+    margin-top: -40px;
+}
+.nav-item {
+    padding: 5px 30px;
+    background-color:#3C90CE;
+}
+li.nav-item:hover {
+    background-color: #D8E9F5;
+}
+li.nav-item.active:hover {
+    background-color: #D8E9F5;
+}
+li.nav-item-last:hover {
+    color: #00497E;
+    background-color: #D8E9F5;
+}
+.nav-link {
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 15px;
+}
+.darkbg {
+    background-color: #00497E;
+}
+.navbar li.active {
+    background-color:#F3971A;
+}
+.nav-item-last {
+    padding-left: 25px;
+}
+.entrance {
+    font-weight: 300;
+    font-size: 23px;
+    padding-right: 10px;
+}
+/* End: Navigation bar */
+
+/* Start: Contact */
+.contact-title {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+    color: #1A5B8B;
+    font-size: 39px;
+}
+.card-deck {
+    margin: 30px auto;
+    width: 80%;
+}
+.contact-role {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 28px;
+    color: #00497E;
+    background-color: #D8E9F5;
+}
+.card {
+    border-radius: 0px;
+    border: none;
+}
+.card-img-top {
+    border-radius: 0px;
+}
+.card-body {
+    text-align: center;
+    background-color: #ECF4FA;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 29px;
+    color: #3C90CE;
+    margin-bottom: -5px;
+}
+.card-text {
+    font-size: 19px;
+    color: #575756;
+}
+.card-mail {
+    color: #3C90CE;
+    margin-top: 30px;
+    margin-bottom: -2px;
+}
+.card-number {
+    color: #575756;
+}
+.contact-button {
+    display: block;
+    margin: 80px auto 40px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+/* End: Contact */
+
+/* Start: Testimonials */
+.testimonial-container {
+    position: relative;
+    background-image: linear-gradient(to right, #00497E, #3C90CE);
+}
+.testimonial-slides {
+    
+    padding: 40px;
+    text-align: center;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -70px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 60px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  a:not([href]) {
+    color: #F3971A;
+}
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 200px; 
+}
+.prev {
+    margin-left: 200px; 
+}
+.message {
+    font-weight: 400;
+    font-size: 22px;
+    color: #F2F2F2;
+    margin-bottom: 5px;
+}
+.author {
+    font-weight: 900;
+    font-size: 22px;
+    color: #F2F2F2;
+}
+/* End: Testimonials */
+
+/* Start: Footer */
+footer {
+    background-color: #383838;
+    padding: 40px;
+}
+.row {
+    color: #ffffff;
+}
+hr {
+    background-color: #6f6f6e;
+}
+.aop-winner-logo {
+    padding-top: 110px;
+}
+.aop-winner-paragraph {
+    color: #ffffff;
+    font-size: 11px;
+    padding-top: 10px;
+}
+.your-logo {
+    width: 200px;
+    padding-top: 50px;
+}
+.fab {
+   color: #383838;
+   padding: 10px 10px;
+   margin-right: 5px;
+}
+.fa-facebook-f {
+    padding: 10px 14px;
+    background-color: #3D5D92;
+}
+.fa-twitter {
+    background-color: #527CAD;
+}
+.fa-linkedin {
+    background-color: #0B6D9D;
+}
+.fa-youtube {
+    background-color: #BC1F2C;
+}
+.find-us {
+    padding-top: 40px;
+}
+.your-company-address {
+    padding-top: 10px;
+    font-size: 11px;
+    line-height: 2;
+}
+ul {
+    list-style-type: none;
+}
+.footer-list  {
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 11px;
+}
+.footer-list a {
+    color: #ffffff;
+}
+ul li:before {
+   content: '';
+   position: absolute;
+   border-right: 1px solid #6f6f6e;
+   border-bottom: 1px solid #6f6f6e;
+   width: 6px;
+   height: 6px;
+   top: calc(50% - 4px);
+   left: -15px;
+   transform: translateY(-50%) rotate(-45deg);
+}
+.fas-google {
+    color: #da8107;
+    padding-right: 10px;
+}
+.google-map {
+    color: #da8107;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.copyright {
+    background-color: #1D1D1B;
+    color: #ffffff;
+    padding: 10px;
+}
+.fa-copyright {
+   padding-right: 5px;
+}
+.copyright-text {
+    font-size: 12px;
+    margin-left: 230px;
+    color: #abb1ab;
+}
+.sm-footer {
+    color: #ffffff;
+}
+.sm-list {
+    padding-top: 20px;
+    list-style-type: none;
+}
+/* End: Footer */
+
+
+/* On Screens */
+
+@media screen and (min-width: 1024px) {
+    .conference-title, .conference-year {
+        font-size: 67px;
+    }
+    .contact-role {
+        font-size: 20px;
+    }
+    .card-title {
+        font-size: 21px;
+    }
+    .card-text {
+        font-size: 15px;
+    }
+    .card-mail, .card-number {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .conference-title, .conference-year {
+        font-size: 40px;
+    }
+    .prev {
+        margin-left: 70px;
+    }
+    .next {
+        margin-right: 70px;
+    }
+    .contact-role {
+        font-size: 15px;
+    }
+    .card-title {
+        font-size: 17px;
+    }
+    .card-text {
+        font-size: 11px;
+        padding-top: 3px;
+    }
+    .card-mail, .card-number {
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .login-button {
+        width: 100%;
+    }
+    .register-button {
+        width: 100%;
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
+    .flix-logo {
+        width: 100%;
+    }
+    .conference-title, .conference-year {
+        font-size: 30px;
+    }
+    .prev {
+        margin-left: 15px;
+        font-size: 30px;
+        top: 65%;
+    }
+    .next {
+        margin-right: 15px;
+        font-size: 30px;
+        top: 65%;
+    }
+    .message {
+        font-size: 12px;
+    }
+    .author {
+        font-size: 15px;
+    }
+    .copyright-text {
+        margin-left: 20px;
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .message {
+        font-size: 9px;
+    }
+    .author {
+        font-size: 12px;
+    }
+    .copyright-text {
+        margin-left: 20px;
+        font-size: 8px;
+    }
+}
+
+
