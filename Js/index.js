@@ -1,4 +1,4 @@
-// Testimonial slide
+// Testimonial
 
 var slideIndex = 1;
 showSlides(slideIndex);
